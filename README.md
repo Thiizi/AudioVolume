@@ -10,7 +10,7 @@ Coloque em seu projeto:
 #include <AudioVolume>
 ```
 
-**Uso**
+## Uso
  
 ```pawn
 bool:IsValidAudioStreamVolume(volume);
@@ -18,9 +18,9 @@ PlayAudioStreamForPlayerEx(playerid, const url[], volume);
 VolumeAudioStreamForPlayer(playerid, volume);
 ```
 
- * **Exemplo de uso**
+* **Exemplo de uso**
  
- ```pawn
+```pawn
 CMD:playaudio(playerid, params[])
 {
 	new url[128], volume;
@@ -36,4 +36,4 @@ CMD:volumeaudio(playerid, params[])
 	VolumeAudioStreamForPlayer(playerid, strval(params));
 	return 1;
 }
- ```
+```
