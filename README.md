@@ -10,6 +10,14 @@ Coloque em seu projeto:
 #include <AudioVolume>
 ```
 
+**Uso**
+ 
+```pawn
+bool:IsValidAudioStreamVolume(volume);
+PlayAudioStreamForPlayerEx(playerid, const url[], volume);
+VolumeAudioStreamForPlayer(playerid, volume);
+```
+
  * **Exemplo de uso**
  
  ```pawn
