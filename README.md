@@ -10,7 +10,7 @@ Coloque em seu projeto:
 #include <AudioVolume>
 ```
 
- * **Example**
+ * **Exemplo de uso**
  
  ```pawn
 CMD:playaudio(playerid, params[])
