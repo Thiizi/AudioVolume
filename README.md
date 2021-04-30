@@ -16,7 +16,7 @@ Coloque em seu projeto:
 CMD:playaudio(playerid, params[])
 {
 	new url[128], volume;
-	if(sscanf(params, "s[128]d", url, volume)) return SendClientMessage(playerid, 0xDADADAFF, "/playaudio2 <audio url> <volume>");
+	if(sscanf(params, "s[128]d", url, volume)) return SendClientMessage(playerid, 0xDADADAFF, "/playaudio <audio url> <volume>");
 	PlayAudioStreamForPlayerEx(playerid, url, volume);
 	return 1;
 }
